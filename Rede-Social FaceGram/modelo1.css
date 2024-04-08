@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+
+:root{
+  --var-cor1: #AFE2FF;
+  --var-cor2:#81CCF7;
+  --var-cor3:#489CCD;
+  --var-cor4:#1A5F87;
+  --var-cor5:#024D78;
+
+
+
+
+
+}
+body{
+    background-color:var(--var-cor4);
+    color: white;
+   
+}
+header{
+  background-color: var(--var-cor3);
+  padding:10px;
+  margin: -8px;
+
+}
+header>h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+    text-align: center;
+}
+main{
+  background-color: white;
+  color: black;
+  margin: auto;
+  padding: 8px;
+  border: 1px;
+  margin-top: 10px;
+  min-width:300px;
+  max-width: 1000px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 6px black;
+ 
+ 
+  
+  
+}
+main>article{
+  background-color: rgba(128, 128, 128, 0.329);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: inset 3px 3px 4px black;
+}
+main>article>h3{
+  
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  color: white;
+  background-color: var(--var-cor3);
+  margin: -8px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow:  -3px -3px 7px rgba(0, 0, 0, 0.575);
+  
+}
+main>article>p{
+  
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   
+  
+
+}
+main>article>p>span{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--var-cor5);
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 10px;
+  margin: auto;
+}
+#album{
+  text-align: center;
+  display: block;
+  background-color: var(--var-cor1);
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color:var(--var-cor5) ;
+
+}
+main>img{ 
+ background-color: var(--var-cor4);
+  display: block;
+ width: 50%;
+ height: 50%;
+ margin: auto;
+ padding:10px;
+ border-radius: 3px;
+ margin-bottom: 10px;
+ 
+
+}
+footer{
+  background-color: var(--var-cor3);
+  border-radius: 5px;
+  padding: -1px 4px;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+ 
+  
+}
+section{
+  
+  padding: 10px;
+  margin: 0px;
+  background-color: rgba(255, 255, 255, 0.329);
+  box-shadow:  4px 4px 8px black;
+  background-color: var(--var-cor2);
+  margin-top: 15px;
+  
+}
+section>ul{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  display:inline-block;
+  padding: 10px;
+  margin: auto;
+ 
+}
+section>ul>li{
+  padding-left:  30px;
+  margin: auto;
+}
+section>ul>li>a{
+
+text-decoration: none ;
+color: darkblue;
+
+}
+section>ul.redes>li{
+  display: inline-flex;
+  padding: 10px;
+}
+
+
+
+
+
